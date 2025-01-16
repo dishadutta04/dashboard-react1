@@ -12,6 +12,7 @@ import GeographyChart from "../../components/GeographyChart";
 import BarChart from "../../components/BarChart";
 import StatBox from "../../components/StatBox";
 import ProgressCircle from "../../components/ProgressCircle";
+import { useAuth0 } from "@auth0/auth0-react";
 
 const Dashboard = () => {
   const theme = useTheme();
